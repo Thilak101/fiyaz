@@ -1,0 +1,35 @@
+.header__profile {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: whitesmoke;
+  padding: 30px 50px;
+  background: url("../../assets/44ee7a8f-ef33-415d-8605-4df03e4ae1b2.jpeg");
+  background-size: cover;
+  text-shadow: 5px 5px 5px black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__profile small {
+  color: orange;
+}
+.header__profile h1 {
+  margin: 30px 0 50px 0;
+}
+.header__aboutContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.header__about .header__underline,
+.header__specialize .header__underline,
+.header__skills .header__underline {
+    border-bottom: 4px solid orange;
+    padding-bottom: 20px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.header__about span {
+  color: orange;
+}

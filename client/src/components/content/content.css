@@ -1,0 +1,24 @@
+.content__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.content__public h1{
+    margin-bottom: 30px;
+}
+
+.content__public button {
+    padding: 10px 20px;
+    display: flex;
+    color: white;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.content__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

@@ -1,0 +1,16 @@
+.footer{
+    padding: 50px 190px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer button {
+    background-color: orange;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 50px;
+    cursor: pointer;
+}
